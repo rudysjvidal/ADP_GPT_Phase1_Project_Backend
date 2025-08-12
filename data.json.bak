@@ -1,0 +1,324 @@
+{
+  "customers": [
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "email": "alice.johnson@example.com",
+      "password": "pass123",
+      "phone_number": "+1-555-0101",
+      "profile_picture": "https://randomuser.me/api/portraits/women/1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Bob Smith",
+      "email": "bob.smith@example.com",
+      "password": "secure456",
+      "phone_number": "+1-555-0102",
+      "profile_picture": "https://randomuser.me/api/portraits/men/1.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Charlie Brown",
+      "email": "charlie.brown@example.com",
+      "password": "charlie789",
+      "phone_number": "+1-555-0103",
+      "profile_picture": "https://randomuser.me/api/portraits/men/3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Diana Prince",
+      "email": "diana.prince@example.com",
+      "password": "wonderwoman",
+      "phone_number": "+1-555-0104",
+      "profile_picture": "https://randomuser.me/api/portraits/women/4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Ethan Hunt",
+      "email": "ethan.hunt@example.com",
+      "password": "imfagent",
+      "phone_number": "+1-555-0105",
+      "profile_picture": "https://randomuser.me/api/portraits/men/1.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Fiona Gallagher",
+      "email": "fiona.gallagher@example.com",
+      "password": "shameless",
+      "phone_number": "+1-555-0106",
+      "profile_picture": "https://randomuser.me/api/portraits/women/6.jpg"
+    },
+    {
+      "id": 7,
+      "name": "George Michaels",
+      "email": "george.michaels@example.com",
+      "password": "faith1987",
+      "phone_number": "+1-555-0107",
+      "profile_picture": "https://randomuser.me/api/portraits/men/1.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Hannah Baker",
+      "email": "hannah.baker@example.com",
+      "password": "thirteen",
+      "phone_number": "+1-555-0108",
+      "profile_picture": "https://randomuser.me/api/portraits/women/8.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Ian Malcolm",
+      "email": "ian.malcolm@example.com",
+      "password": "chaostheory",
+      "phone_number": "+1-555-0109",
+      "profile_picture": "https://randomuser.me/api/portraits/men/1.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Julia Roberts",
+      "email": "julia.roberts@example.com",
+      "password": "prettywoman",
+      "phone_number": "+1-555-0110",
+      "profile_picture": "https://randomuser.me/api/portraits/women/10.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Kevin Hart",
+      "email": "kevin.hart@example.com",
+      "password": "comedyking",
+      "phone_number": "+1-555-0111",
+      "profile_picture": "https://randomuser.me/api/portraits/men/1.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Laura Palmer",
+      "email": "laura.palmer@example.com",
+      "password": "twinpeaks",
+      "phone_number": "+1-555-0112",
+      "profile_picture": "https://randomuser.me/api/portraits/women/12.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Michael Scott",
+      "email": "michael.scott@example.com",
+      "password": "thatswhatshesaid",
+      "phone_number": "+1-555-0113",
+      "profile_picture": "https://randomuser.me/api/portraits/men/1.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Nina Simone",
+      "email": "nina.simone@example.com",
+      "password": "feelinggood",
+      "phone_number": "+1-555-0114",
+      "profile_picture": "https://randomuser.me/api/portraits/women/14.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Oscar Isaac",
+      "email": "oscar.isaac@example.com",
+      "password": "moonknight",
+      "phone_number": "+1-555-0115",
+      "profile_picture": "https://randomuser.me/api/portraits/men/1.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Pam Beesly",
+      "email": "pam.beesly@example.com",
+      "password": "officeart",
+      "phone_number": "+1-555-0116",
+      "profile_picture": "https://randomuser.me/api/portraits/women/16.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Quentin Blake",
+      "email": "quentin.blake@example.com",
+      "password": "illustrator",
+      "phone_number": "+1-555-0117",
+      "profile_picture": "https://randomuser.me/api/portraits/men/1.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Rachel Green",
+      "email": "rachel.green@example.com",
+      "password": "centralperk",
+      "phone_number": "+1-555-0118",
+      "profile_picture": "https://randomuser.me/api/portraits/women/18.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Sam Wilson",
+      "email": "sam.wilson@example.com",
+      "password": "falcon",
+      "phone_number": "+1-555-0119",
+      "profile_picture": "https://randomuser.me/api/portraits/men/1.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Tina Fey",
+      "email": "tina.fey@example.com",
+      "password": "30rock",
+      "phone_number": "+1-555-0120",
+      "profile_picture": "https://randomuser.me/api/portraits/women/20.jpg"
+    },
+    {
+      "id": 21,
+      "name": "David Miller",
+      "email": "david.miller@example.com",
+      "password": "miller123",
+      "phone_number": "+1-555-0121",
+      "profile_picture": "https://randomuser.me/api/portraits/men/21.jpg"
+    },
+    {
+      "id": 22,
+      "name": "Sarah Connor",
+      "email": "sarah.connor@example.com",
+      "password": "terminator",
+      "phone_number": "+1-555-0122",
+      "profile_picture": "https://randomuser.me/api/portraits/women/22.jpg"
+    },
+    {
+      "id": 23,
+      "name": "James Bond",
+      "email": "james.bond@example.com",
+      "password": "agent007",
+      "phone_number": "+1-555-0123",
+      "profile_picture": "https://randomuser.me/api/portraits/men/23.jpg"
+    },
+    {
+      "id": 24,
+      "name": "Emma Watson",
+      "email": "emma.watson@example.com",
+      "password": "hermione",
+      "phone_number": "+1-555-0124",
+      "profile_picture": "https://randomuser.me/api/portraits/women/24.jpg"
+    },
+    {
+      "id": 25,
+      "name": "Tony Stark",
+      "email": "tony.stark@example.com",
+      "password": "ironman",
+      "phone_number": "+1-555-0125",
+      "profile_picture": "https://randomuser.me/api/portraits/men/25.jpg"
+    },
+    {
+      "id": 26,
+      "name": "Natasha Romanoff",
+      "email": "natasha.romanoff@example.com",
+      "password": "blackwidow",
+      "phone_number": "+1-555-0126",
+      "profile_picture": "https://randomuser.me/api/portraits/women/26.jpg"
+    },
+    {
+      "id": 27,
+      "name": "Bruce Wayne",
+      "email": "bruce.wayne@example.com",
+      "password": "batman",
+      "phone_number": "+1-555-0127",
+      "profile_picture": "https://randomuser.me/api/portraits/men/27.jpg"
+    },
+    {
+      "id": 28,
+      "name": "Wonder Woman",
+      "email": "wonder.woman@example.com",
+      "password": "amazonian",
+      "phone_number": "+1-555-0128",
+      "profile_picture": "https://randomuser.me/api/portraits/women/28.jpg"
+    },
+    {
+      "id": 29,
+      "name": "Peter Parker",
+      "email": "peter.parker@example.com",
+      "password": "spiderman",
+      "phone_number": "+1-555-0129",
+      "profile_picture": "https://randomuser.me/api/portraits/men/29.jpg"
+    },
+    {
+      "id": 30,
+      "name": "Leia Organa",
+      "email": "leia.organa@example.com",
+      "password": "princess",
+      "phone_number": "+1-555-0130",
+      "profile_picture": "https://randomuser.me/api/portraits/women/30.jpg"
+    },
+    {
+      "id": 31,
+      "name": "Luke Skywalker",
+      "email": "luke.skywalker@example.com",
+      "password": "jedi",
+      "phone_number": "+1-555-0131",
+      "profile_picture": "https://randomuser.me/api/portraits/men/31.jpg"
+    },
+    {
+      "id": 32,
+      "name": "Rey Palpatine",
+      "email": "rey.palpatine@example.com",
+      "password": "lastjedi",
+      "phone_number": "+1-555-0132",
+      "profile_picture": "https://randomuser.me/api/portraits/women/32.jpg"
+    },
+    {
+      "id": 33,
+      "name": "John Wick",
+      "email": "john.wick@example.com",
+      "password": "pencil",
+      "phone_number": "+1-555-0133",
+      "profile_picture": "https://randomuser.me/api/portraits/men/33.jpg"
+    },
+    {
+      "id": 34,
+      "name": "Hermione Granger",
+      "email": "hermione.granger@example.com",
+      "password": "brightest",
+      "phone_number": "+1-555-0134",
+      "profile_picture": "https://randomuser.me/api/portraits/women/34.jpg"
+    },
+    {
+      "id": 35,
+      "name": "Harry Potter",
+      "email": "harry.potter@example.com",
+      "password": "chosen1",
+      "phone_number": "+1-555-0135",
+      "profile_picture": "https://randomuser.me/api/portraits/men/35.jpg"
+    },
+    {
+      "id": 36,
+      "name": "Katniss Everdeen",
+      "email": "katniss.everdeen@example.com",
+      "password": "mockingjay",
+      "phone_number": "+1-555-0136",
+      "profile_picture": "https://randomuser.me/api/portraits/women/36.jpg"
+    },
+    {
+      "id": 37,
+      "name": "Peeta Mellark",
+      "email": "peeta.mellark@example.com",
+      "password": "baker",
+      "phone_number": "+1-555-0137",
+      "profile_picture": "https://randomuser.me/api/portraits/men/37.jpg"
+    },
+    {
+      "id": 38,
+      "name": "Arya Stark",
+      "email": "arya.stark@example.com",
+      "password": "faceless",
+      "phone_number": "+1-555-0138",
+      "profile_picture": "https://randomuser.me/api/portraits/women/38.jpg"
+    },
+    {
+      "id": 39,
+      "name": "Jon Snow",
+      "email": "jon.snow@example.com",
+      "password": "knowsnothing",
+      "phone_number": "+1-555-0139",
+      "profile_picture": "https://randomuser.me/api/portraits/men/39.jpg"
+    },
+    {
+      "id": 40,
+      "name": "Daenerys Targaryen",
+      "email": "daenerys.targaryen@example.com",
+      "password": "dragonqueen",
+      "phone_number": "+1-555-0140",
+      "profile_picture": "https://randomuser.me/api/portraits/women/40.jpg"
+    }
+  ]  
+}
