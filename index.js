@@ -3,7 +3,7 @@ require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 const { ObjectId } = require('mongodb');
-const { connectToDatabase, getCollection } = require('./data-access');
+const { connectToDatabase, getCollection, getUserCollection } = require('./data-access');
 
 const app = express();
 const PORT = process.env.PORT || 4000;
@@ -11,16 +11,22 @@ const PORT = process.env.PORT || 4000;
 app.use(cors());
 app.use(express.json());
 
-let customers;
+let customers, users;
 
 
 connectToDatabase()
   .then(() => {
     customers = getCollection();
+    users = getUserCollection();
 
     // GET
     app.get('/customers', async (req, res) => {
       const data = await customers.find({}).toArray();
+      res.json(data);
+    });
+
+    app.get('/users', async (req, res) => {
+      const data = await users.find({}).toArray();
       res.json(data);
     });
 
