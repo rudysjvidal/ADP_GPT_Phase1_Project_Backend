@@ -2,7 +2,7 @@ import 'dotenv/config';
 import express from 'express';
 import cors from 'cors';
 import { ObjectId } from 'mongodb';
-import { connectToDatabase, getCollection, getUserCollection } from './data-access.js';
+const { connectToDatabase, getCollection } = require('./data-access');
 
 const app = express();
 const PORT = process.env.PORT || 4000;
