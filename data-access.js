@@ -4,9 +4,10 @@ import { MongoClient } from 'mongodb';
 let client;
 let db;
 let collection;
+let userCollection;
 
 
-async function connectToDatabase() {
+export async function connectToDatabase() {
   const url = process.env.MONGO_DB_URL;
   const dbName = process.env.MONGO_DB;
   const collectionName = process.env.MONGO_DB_COLLECTION;
@@ -25,30 +26,23 @@ async function connectToDatabase() {
   userCollection = db.collection('users');
 }
 
-function getCollection() {
+export function getCollection() {
   if (!collection) {
     throw new Error("MongoDB not connected yet. Call connectToDatabase() first.");
   }
   return collection;
 }
 
-function getUserCollection() {
+export function getUserCollection() {
   if (!userCollection) {
     throw new Error("MongoDB not connected yet. Call connectToDatabase() first.");
   }
   return userCollection;
 }
 
-async function closeConnection() {
+export async function closeConnection() {
   if (client) {
     await client.close();
-    console.log("🔌 MongoDB connection closed.");
+    console.log("MongoDB connection closed.");
   }
 }
-
-module.exports = {
-  connectToDatabase,
-  getCollection,
-  getUserCollection,
-  closeConnection
-};
