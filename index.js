@@ -1,9 +1,8 @@
-// index.js
-require('dotenv').config();
-const express = require('express');
-const cors = require('cors');
-const { ObjectId } = require('mongodb');
-const { connectToDatabase, getCollection } = require('./data-access');
+import 'dotenv/config';
+import express from 'express';
+import cors from 'cors';
+import { ObjectId } from 'mongodb';
+import { connectToDatabase, getCollection, getUserCollection } from './data-access.js';
 
 const app = express();
 const PORT = process.env.PORT || 4000;
