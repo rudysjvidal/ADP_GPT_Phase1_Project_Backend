@@ -22,8 +22,8 @@ async function connectToDatabase() {
 
   db = client.db(dbName);
   collection = db.collection(collectionName);
+  userCollection = db.collection('users');
 }
-
 
 function getCollection() {
   if (!collection) {
@@ -32,6 +32,12 @@ function getCollection() {
   return collection;
 }
 
+function getUserCollection() {
+  if (!userCollection) {
+    throw new Error("MongoDB not connected yet. Call connectToDatabase() first.");
+  }
+  return userCollection;
+}
 
 async function closeConnection() {
   if (client) {
@@ -43,5 +49,6 @@ async function closeConnection() {
 module.exports = {
   connectToDatabase,
   getCollection,
+  getUserCollection,
   closeConnection
 };

@@ -10,16 +10,22 @@ const PORT = process.env.PORT || 4000;
 app.use(cors());
 app.use(express.json());
 
-let customers;
+let customers, users;
 
 
 connectToDatabase()
   .then(() => {
     customers = getCollection();
+    users = getUserCollection();
 
     // GET
     app.get('/customers', async (req, res) => {
       const data = await customers.find({}).toArray();
+      res.json(data);
+    });
+
+    app.get('/users', async (req, res) => {
+      const data = await users.find({}).toArray();
       res.json(data);
     });
 
